@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .historia, .formulario{
+    background-image: url('./proyecto-babel/fondo-inicio-txturado\(2\).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  .logo{
+    margin-left: 140px;
+    margin-top: 70px;
+  }
+  .logo1{
+    margin-top: 3px;
+    margin-left: 40px;
+  }
+  
+  
+  .navbar, ul {
+    width: 600px;
+    height: 30px;
+    margin-top: -30px;
+    margin-right: 20px;
+    float: right;
+  }
+  
+  .navbar, ul, li, a {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;/* da espacio entre los item */
+    list-style-type: none;/* quita los puntos de los item */  
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+  }
+  
+  .inicio{
+    margin-left: 3%;
+    margin-top: 5%;
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  .inicio1{
+    width: 90%;
+  }
+  .inicio2{
+    width: 96%;
+  }
+  
+  .footer{
+    width: 90%;
+    margin-top: 10%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .parrafo{
+    font-family:unset;
+  
+  }
+
+  .formulario{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F5F5F5;
+
+}
+
+.form-container{
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    background-color: brown;
+}
+.sing-up{
+    color: brown;
+    font-size: 40px;
+}
+.form-login, button{
+    margin: 10px 0;
+}
+.form-contacto{
+  text-align: center;
+  width: 50%;
+  padding: 15px;
+  margin: auto;
+  background-color: brown;
+}
+
+.tradu{
+  border: brown solid 2px;
+  width: 30%;
+  padding: 2%;
+  box-sizing: border-box;
+  margin-bottom: 1%;
+
+}
+.equipo{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
