@@ -13,18 +13,16 @@
     margin-left: 140px;
     margin-top: 70px;
   }
-  .logo1{
-    margin-top: 3px;
-    margin-left: 40px;
-  }
+
   
   
   .navbar, ul {
-    width: 600px;
-    height: 30px;
-    margin-top: -30px;
-    margin-right: 20px;
+    width: 80%;
+    height: 10%;
+    margin-top: -3.5%;
+    margin-right: 4%;
     float: right;
+    
   }
   
   .navbar, ul, li, a {
@@ -36,20 +34,24 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     color: black;
+    text-decoration: underline;
   }
   
   .inicio{
     margin-left: 3%;
-    margin-top: 5%;
+    margin-top: 1%;
     width: 95%;
     display: flex;
     justify-content:space-evenly;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
     
   }
   
   .inicio1{
     width: 90%;
+    margin-right: 2%;
+    color: brown;
   }
   .inicio2{
     width: 96%;
@@ -57,7 +59,7 @@
   
   .footer{
     width: 90%;
-    margin-top: 10%;
+    margin-top: 2%;
     margin-right: 5%;
     display: flex;
     flex-direction: row;
@@ -65,37 +67,32 @@
   }
   
   .parrafo{
+    width: 90%;
+    margin-left: 5%;
     font-family:unset;
-  
   }
 
-  .formulario{
-    display: flex;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #F5F5F5;
-
-}
-
 .form-container{
-    text-align: center;
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-    background-color: brown;
+  float: left;
+  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background-color: brown;
 }
+
 .sing-up{
     color: brown;
     font-size: 40px;
 }
+
 .form-login, button{
     margin: 10px 0;
 }
 .form-contacto{
   text-align: center;
-  width: 50%;
+  width: 60%;
   padding: 15px;
   margin: auto;
   background-color: brown;
@@ -119,5 +116,25 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.nosotros{
+  border: brown solid 2px;
+  padding: 1%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  width: 85%;
+  margin-top: 1%;
+  margin-left: 6%;
+  
+}
+.frases{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -10%;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: brown;
 
+  
+}
 

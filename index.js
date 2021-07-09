@@ -9,10 +9,6 @@ app.use((req, res, next) => {
     
 });
 
-app.get("/", (req, res) => {
-    res.json({message: "app funcionando"})
-});
-
 app.listen(3000, () => console.log("Arranco el server"));
 
 app.get("/", function (req, res) {
