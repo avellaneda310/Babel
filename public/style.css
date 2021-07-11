@@ -1,80 +1,79 @@
 *{
-    margin: 0;
-    padding: 0;
-  }
-  .historia, .formulario{
-    background-image: url('./proyecto-babel/fondo-inicio-txturado\(2\).jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-  }
-  .logo{
-    margin-left: 140px;
-    margin-top: 70px;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  
-  
-  .navbar, ul {
-    width: 80%;
-    height: 10%;
-    margin-top: -3.5%;
-    margin-right: 4%;
-    float: right;
-    
-  }
-  
-  .navbar, ul, li, a {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around;/* da espacio entre los item */
-    list-style-type: none;/* quita los puntos de los item */  
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    color: black;
-    text-decoration: underline;
-  }
-  
-  .inicio{
-    margin-left: 3%;
-    margin-top: 1%;
-    width: 95%;
-    display: flex;
-    justify-content:space-evenly;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
-    
-  }
-  
-  .inicio1{
-    width: 90%;
-    margin-right: 2%;
-    text-align: justify;
-  
-  }
-  .inicio2{
-    width: 96%;
-    text-align: justify;
-  }
-  
-  .footer{
-    width: 90%;
-    margin-top: 2%;
-    margin-right: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  .parrafo{
-    width: 90%;
-    margin-left: 5%;
-    margin-top: -3%;
-    font-family:unset;
-  }
+.historia, .formulario{
+  background-image: url('./proyecto-babel/fondo-inicio-txturado\(2\).jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
 
+.logo{
+  margin-left: 140px;
+   margin-top: 70px;
+}
+
+
+.navbar, ul {
+  width: 80%;
+  height: 10%;
+  margin-top: -4.5%;
+  margin-right: 4%;
+  float: right;
+    
+}
+  
+.navbar, ul, li, a {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;/* da espacio entre los item */
+  list-style-type: none;/* quita los puntos de los item */  
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: black;
+  text-decoration: underline;
+  padding: 1%;
+}
+ 
+.inicio{
+  margin-left: 3%;
+  margin-top: 0%;
+  width: 95%;
+  display: flex;
+  justify-content:space-evenly;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large; 
+}
+  
+.inicio1{
+  width: 80%;
+  margin-right: 3%;
+  text-align: justify;
+}
+
+.inicio2{
+  width: 80%;
+  text-align: justify;
+}
+  
+.footer{
+  width: 95%;
+  margin-top: -2%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+}
+  
+.parrafo{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: -3%;
+  font-family:unset;
+}
 .form-container{
   float: left;
   text-align: center;
@@ -86,12 +85,12 @@
 }
 
 .sing-up{
-    color: brown;
-    font-size: 40px;
+  color: brown;
+  font-size: 40px;
 }
 
 .form-login, button{
-    margin: 10px 0;
+  margin: 10px 0;
 }
 .form-contacto{
   margin-top: -4%;
@@ -99,7 +98,6 @@
   text-align: center;
   width: 60%;
   padding: 15px;
-  
   background-color: brown;
 }
 
@@ -149,21 +147,157 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: brown;
 }
-
-@media screen and (max-widht:850px) {
-  .historia{
-    background: red;
-  };
-  .navbar, ul, li{
+@media screen and (max-width: 1024px) {
+  .historia {
+    width: 95%;
+  }
+  .navbar, ul, li, a {
+    width: 80%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-decoration: underline;
-
+    flex-direction: row; 
+    justify-content: space-around;/* da espacio entre los item */
+    float:right;
+    margin-right: -1%;
 
   }
+  .cptba{
+    display: none;
+  }
+  .inicio{
+    width: 110%;
+    flex-direction: column;
+    margin-left: 9%;
+  }
+  .footer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:unset;
+    margin-left: -10%;
+  }
+  .foot{
+    display: none;
+  }
 
+  .frases{
+    width: 70%;
+    margin-left: 25%;
+    margin-top: -13%;
+    text-align:justify;
+  }
+  .alan{
+    display: none;
+  }
+  .botonNos{
+    margin-top: -1%;
+    margin-left: -21%;
+  }
+  .nosotros{
+    width: 90%;
+    margin-top: 7%;
+    margin-left: 8%;
+  }
+  .frase{
+    display: none;
+  }
+  .botonequipo{
+    margin-top: -2%;
+    margin-left: 5%;
+  }
+  .equipo2{
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+  .equipo{
+    margin-left: 7%;
+  }
+  .botonhistoria{
+    margin-right: 18%;
+    margin-top: -1%;
+  }
+  .parrafo{
+    margin-bottom: 1%;
+  }
+  .botoncontacto{
+    margin-top: 33%;
+    margin-right: 15%;
+  }
+  .form-contacto{
+    width: 80%;
+    margin-left: 13%;
+    margin-top: 1%;
+  }
+  .botonlogin{
+    margin-top: 8%;
+    margin-right: 2%;
+  }
+  .form-container{
+    margin-left: -10%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+
+  .logo5{
+    width: 350%;
+  }
+  .navbar, ul {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 2%;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-left: 65%;
+    margin-top:-20%;
+  }
+  .linea{
+    display: none;
+  }
+
+  .inicio{
+    width: 108%;
+    margin-top: -15%;
+  }
+  .frases{
+    margin-top: -8%;
+  }
+  .botonhistoria{
+    margin-top: 2%;
+    padding-bottom: 10%;
+  }
+  .parrafo{
+    margin-top: 2%;
+  }
+  .form-contacto{
+    width: 90%;
+    margin-left: 8%;
+  }  
 
 }
+@media screen and (max-width: 720px) {
+  .form-contacto{
+    width: 100%;
+    margin-left: 3%;
+  }
+
+}
+@media screen and (max-width: 610px) {
+  .navbar, ul{
+    margin-top: -22%;
+  }
+  .botonequipo{
+    margin-top: -3%;
+  } 
+  .form-contacto{
+    margin-left: 3%;
+  } 
+  .form-container{
+    margin-left: 2%;
+  }
+}
+
+
 
 
