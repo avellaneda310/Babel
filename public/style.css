@@ -61,7 +61,7 @@
   
 .footer{
   width: 95%;
-  margin-top: -2%;
+  margin-top: 0%;
   margin-right: 3%;
   display: flex;
   flex-direction: row;
@@ -74,21 +74,34 @@
   margin-top: -3%;
   font-family:unset;
 }
+
 .form-container{
   float: left;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
   width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-  background-color: brown;
+  max-width: 300px;
+  padding: 10px;
+  border: brown solid 2px;
+  
 }
-
-.sing-up{
-  color: brown;
+.my-title{
+  color: crimson;
   font-size: 40px;
 }
-
+.form-login, button{
+  margin: auto;
+}
+.error-massage{
+  color: red;
+}
+.my-title{
+  color: crimson;
+  font-size: 40px;
+}
 .form-contacto{
   margin-top: -4%;
   margin-left: 20%;

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link href= "style.css" link rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>login</title>
     <style>
         body {
@@ -16,8 +18,9 @@
             background-size: cover;
         }
     </style>
-    
+
 </head>
+
 <body>
     <header>
         <img src="proyecto-babel/Babel 2 (con margenes) (1).png" style="max-width: 20%;" />
@@ -30,39 +33,43 @@
 
     </header>
     <main class="container">
-        <div class="form-container">
-            <form class="form-login" onsubmit="login(event)">
-                <h3 class="my-title">sing up!
+         <div class="form-container">
+            <form class="form-control" onsubmit="login(event)">
+                <h3 class="sing-up">Ingresar!!
                     <i class="bi bi-file-lock"></i>
                 </h3>
                 <div>
                     <label for="email">correo electronico:</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="matiaspagnuolo@gmail.com" required>
+                    <input type="email" class="form-control" name="email" id="email"
+                        placeholder="**********@gmail.com" required>
                 </div>
                 <div>
                     <label for="password">contraseña:</label>
-                    <input type="password" class="form-control" name="password" id="password" placeholder="************"  maxlength="12" minlength="6" required>
+                    <input type="password" class="form-control" name="password" id="password"
+                        placeholder="************" maxlength="10" minlength="4" required>
                 </div>
                 <div>
                     <label for="nombre">Nombre:</label>
                     <input type="nombre" class="form-control" name="nombre" id="nombre" placeholder="***********" required>
                 </div>
+
                 <div class="form-check">
                     <label class="form-check-label" for="recuerdame">recuerdame</label>
                     <input class="form-check-input" type="checkbox" name="recuerdame" id="recuerdame">
                 </div>
-                <div><h3 class="error-massage" id="error"></h3></div>
                 <div>
-                    <button class="btn btn-primary my-button" type="submit">
+                    <button class="btn btn-danger" type="submit">
                         sing up
                     </button>
                 </div>
-                
-                   
             </form>
         </div>
     </main>
+    
     <script src="/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+
+
 </body>
+
 </html>
