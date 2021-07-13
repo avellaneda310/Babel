@@ -34,24 +34,25 @@
     </header>
     <main class="container">
          <div class="form-container">
-            <form class="form-control" method="POST">
+            <form class="form-control" onsubmit="login(event)">
                 <h3 class="sing-up">Ingresar!!
                     <i class="bi bi-file-lock"></i>
                 </h3>
                 <div>
                     <label for="email">correo electronico:</label>
                     <input type="email" class="form-control" name="email" id="email"
-                        placeholder="matiaspagnuolo@gmail.com">
+                        placeholder="**********@gmail.com" required>
                 </div>
                 <div>
                     <label for="password">contraseña:</label>
                     <input type="password" class="form-control" name="password" id="password"
-                        placeholder="************">
+                        placeholder="************" maxlength="10" minlength="4" required>
                 </div>
                 <div>
-                    <label for="email">Nombre:</label>
-                    <input type="nombre" class="form-control" name="nombre" id="nombre" placeholder="***********">
+                    <label for="nombre">Nombre:</label>
+                    <input type="nombre" class="form-control" name="nombre" id="nombre" placeholder="***********" required>
                 </div>
+
                 <div class="form-check">
                     <label class="form-check-label" for="recuerdame">recuerdame</label>
                     <input class="form-check-input" type="checkbox" name="recuerdame" id="recuerdame">
@@ -64,9 +65,9 @@
             </form>
         </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="./login.js"></script>
-    <script src="./conection.js"></script>
+    
+    <script src="/script.js"></script>
+    
 
 
 </body>
